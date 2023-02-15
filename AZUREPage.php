@@ -1,4 +1,3 @@
-<?php include "../html/azuredbinfo.inc"; ?>
 <html>
 <body>
 <h1>Sample page</h1>
@@ -9,10 +8,10 @@
 
   if (mysqli_connect_errno()) echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
-  $database = mysqli_select_db($connection, "terraformserver1");
+  $database = mysqli_select_db($connection, "exampledb");
 
   /* Ensure that the EMPLOYEES table exists. */
-  VerifyEmployeesTable($connection, "terraformserver1");
+  VerifyEmployeesTable($connection, "exampledb");
 
   /* If input fields are populated, add a row to the EMPLOYEES table. */
   $employee_name = htmlentities($_POST['NAME']);
