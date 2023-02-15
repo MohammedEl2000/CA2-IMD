@@ -1,7 +1,7 @@
 <?php
     echo "\n";
     $serverName = "mysql-terraformserver-1.mysql.database.azure.com";
-    $database = "terraformserver";
+    $database = "exampledb";
     $uid = "mysqladmin";
     $pwd = "Password123";
     
