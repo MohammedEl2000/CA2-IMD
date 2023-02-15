@@ -1,6 +1,6 @@
 <?php
     echo "\n";
-    $serverName = "mysql-terraformserver-1.mysql.database.azure.com";
+    $serverName = "tcp:mysql-terraformserver-1.mysql.database.azure.com,1433";
     $database = "exampledb";
     $uid = "mysqladmin";
     $pwd = "Password123";
