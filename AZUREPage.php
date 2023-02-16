@@ -4,7 +4,7 @@
 <?php
 
   /* Connect to MySQL and select the database. */
-  $connection = mysqli_connect("mysql-terraformserver-1.mysql.database.azure.com", "mysqladmin", "Password123");
+  $connection = mysqli_connect("terraformserver.mysql.database.azure.com", "mysqladmin", "Password123");
 
   if (mysqli_connect_errno()) echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
