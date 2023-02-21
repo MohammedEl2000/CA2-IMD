@@ -1,4 +1,4 @@
-<?php include "../html/azuredbinfo.inc"; ?>
+<?php include "../azuredbinfo.inc"; ?>
 <html>
 <body>
 <h1>Sample page</h1>
